@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:house_rent/widgets/custom_bottom_navigation_bar.dart';
 import 'package:house_rent/widgets/recommended_house.dart';
 import 'package:house_rent/widgets/custom_app_bar.dart';
 import 'package:house_rent/widgets/search_input.dart';
@@ -27,6 +28,7 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
+      bottomNavigationBar: CustomBottomNavigationBar(),
     );
   }
 }
